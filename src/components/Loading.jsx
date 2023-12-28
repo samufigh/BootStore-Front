@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import { BiLoader } from "react-icons/bi";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 export default function Loading(){
     return(
         <Load>
-            <BiLoader/>
+            <AiOutlineLoading3Quarters />
         </Load>
     )
 }
